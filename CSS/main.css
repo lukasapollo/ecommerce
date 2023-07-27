@@ -90,3 +90,7 @@
     background-color: var(--bgColor-circle);
     border-radius: 50%;
 }
+
+.components-cards .c-buttonAddCart:hover{
+    background-color: #191919;
+}
