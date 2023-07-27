@@ -1,0 +1,92 @@
+.container-main {
+    padding: 20px;
+}
+
+.card {
+    background-color: var(--bgColor-card);
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p.title-text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--fontTitle-card);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card p.description-text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--fontDescription-card);
+    font-weight: 500;
+}
+
+/* Component de counter */
+.component-counter {
+    display: flex;
+}
+
+.component-counter .c-counter {
+    width:50px;
+    height: 55px;
+    background-color: var(--bgColor-arrows);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorArrows);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.component-counter input.ipt-counter {
+    outline: none;
+    border: none;
+    background-color: var(--bgColor-counterNum);
+    text-align: center;
+    color: var(--colorNumberCounter);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.component-counter .arrow-counter:hover {
+    background-color: #191919;
+}
+
+/* Component button add cart */
+
+.components-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.components-cards .c-buttonAddCart {
+    width: 150px;
+    height: 55px;
+    background-color: var(--bgColor-addCart);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorIconMore);
+    font-weight: 900;
+    font-size: 1.2rem;
+    border: var(--colorBorderAdd);
+    border-radius: 5px;
+}
+
+.components-cards .container-add {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgColor-circle);
+    border-radius: 50%;
+}

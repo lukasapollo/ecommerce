@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgColor-body);
+}
+
+:root {
+    /* backgrounds */
+   --bgColor-body: #171717;
+   --bgColor-card: #1E1E1E;
+   /* Cor da icone do menu (HEADER)*/
+   --colorIconMenu: #6A6A6A;
+   /* Icon de carrinho */
+   --colorIconCart: #BBBBBB;
+   --colorNotification: #7343DB;
+   --colorFontNotification: #FFFFFF;
+
+   /* Componet de card */
+   --fontTitle-card: #D7D7D7;
+   --fontDescription-card: #494949;
+   /* Component Counter */
+   --bgColor-arrows: #252525;
+   --bgColor-counterNum: #7343DB;
+   --colorArrows: #C0C0C0;
+   --colorNumberCounter: #FFFFFF;
+
+   /* Component add cart */
+   --bgColor-addCart: #202020;
+   --bgColor-circle: #282828;
+   --colorIconMore: #08E294;
+   --colorBorderAdd: 1px solid #1b76553b;
+}
+
+.lightModeColor:root{
+     /* backgrounds */
+   --bgColor-body: #F4F4F4;
+   --bgColor-card: #FFFFFF;
+   /* Cor da icone do menu (HEADER)*/
+   --colorIconMenu: #6A6A6A;
+   /* Icon de carrinho */
+   --colorIconCart: #BBBBBB;
+   --colorNotification: #7343DB;
+   --colorFontNotification: #FFFFFF;
+
+   /* Componet de card */
+   --fontTitle-card: #656565;
+   --fontDescription-card: #BCBCBC;
+   /* Component Counter */
+   --bgColor-arrows: #423A52;
+   --bgColor-counterNum: #F5EDFF;
+   --colorArrows: #C0C0C0;
+   --colorNumberCounter: #756B6B;
+
+   /* Component add cart */
+   --bgColor-addCart: #F5EDFF;
+   --bgColor-circle: #423A52;
+   --colorIconMore: #FFFFFF;
+   --colorBorderAdd:  1px solid rgba(66, 58, 82, 0.14);;
+}
+
