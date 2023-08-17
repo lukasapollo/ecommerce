@@ -17,6 +17,10 @@ body {
    --bgColor-body: #0c0c0c;
    --bgColor-card: #121212;
    --color-reset: #e1e1e6;
+
+    /* Navbar */
+    --border-nav: 1px solid rgb(255 255 255 / 9%);
+
    /* Cor da icone do menu (HEADER)*/
    --colorIconMenu: #6A6A6A;
    /* Icon de carrinho */
