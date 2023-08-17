@@ -6,12 +6,17 @@
 
 body {
     background-color: var(--bgColor-body);
+    color: var(--color-reset);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 :root {
     /* backgrounds */
    --bgColor-body: #0c0c0c;
    --bgColor-card: #121212;
+   --color-reset: #e1e1e6;
    /* Cor da icone do menu (HEADER)*/
    --colorIconMenu: #6A6A6A;
    /* Icon de carrinho */

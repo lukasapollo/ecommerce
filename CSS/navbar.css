@@ -1,10 +1,10 @@
 header nav.navbar {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
 }
 
 header nav.navbar img {
-    width: 40px;
+    width: 35px;
 }
 
