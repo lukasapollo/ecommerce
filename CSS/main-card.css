@@ -6,13 +6,15 @@
 }
 
 .container-main {
-    padding: 20px;
+    padding: 0px 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .card {
+    width: 364px;
     background-color: var(--bgColor-card);
     padding: 20px;
     border-radius: 16px;
@@ -48,6 +50,20 @@
     gap: 1rem;
 }
 
+/* Card */
+
+.card .ctn-el {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card .price {
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 20px;
+    color: #ff7c04;
+}
+
 /* Component de counter */
 .component-counter {
     display: flex;
@@ -69,7 +85,7 @@
 .component-counter input.ipt-counter {
     outline: none;
     border: none;
-    background-color: var(--bgColor-counterNum);
+    background-color: #474250;
     text-align: center;
     color: var(--colorNumberCounter);
     font-size: 1.5em;
@@ -88,7 +104,7 @@
     width: 100%;
     min-width: 100px;
     height: 55px;
-    background-color: var(--bgColor-addCart);
+    background-color: #ff2341;
     display: flex;
     justify-content: center;
     align-items: center;
