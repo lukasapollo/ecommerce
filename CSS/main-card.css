@@ -129,3 +129,13 @@
 .components-cards .c-buttonAddCart:hover{
     background-color: #191919;
 }
+
+
+@media (max-width: 600px) {
+    /* modificando tamanho do card */
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+}
