@@ -1,0 +1,93 @@
+.container-cart {
+    width: 100%;
+    background-color: #282828;
+    height: auto;
+    position: fixed;
+    padding: 20px;
+}
+
+/* header do cart */
+
+.container-cart .header-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.container-cart .header-cart .bx-window-close {
+    font-size: 2rem;
+}
+
+/* Itens do cart */
+
+.ctn-itens {
+    padding: 15px;
+}
+
+.ctn-itens span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.cart-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #323131;
+    border-radius: 2px;
+}
+
+.cart-itens img {
+    width: 74px;
+}
+
+.ctn-counterCart {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.ctn-itens .ctn-counterCart {
+    width: 100px;
+}
+
+.ctn-itens .ctn-counterCart .c-counter {
+    height: 40px
+}
+
+.ctn-counterCart .ctn-trash {
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Button cart */
+
+.ctnBtn-cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.ctnBtn-cart .btn-cart {
+    width: 100%;
+    padding: 20px;
+    background-color: #4427B9;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+}

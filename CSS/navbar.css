@@ -3,7 +3,6 @@ header {
     height: 67px;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #131313;
     border-top: var(--border-nav);   
     border-bottom: var(--border-nav);
@@ -21,5 +20,9 @@ header nav.navbar {
 
 header nav.navbar img {
     width: 31px;
+}
+
+header nav.navbar .bxs-shopping-bag-alt {
+    font-size: 27px;
 }
 
