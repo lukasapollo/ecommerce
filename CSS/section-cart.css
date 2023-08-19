@@ -91,3 +91,24 @@
     border: none;
     border-radius: 3px;
 }
+
+/* Component Total */
+
+.ctn-total {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    border-top: 1px solid #b4b4b42e;
+}
+
+.ctn-price {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #fff;
+}
+
+.price-total {
+    font-size: 1.3rem;
+}
