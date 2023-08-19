@@ -8,6 +8,7 @@ body {
     background-color: var(--bgColor-body);
     color: var(--color-reset);
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2rem;
 }
